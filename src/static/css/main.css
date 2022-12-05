@@ -1,0 +1,21 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-brand{
+    font-weight: bolder;
+}
+
+.nav-link.active {
+    cursor: default;
+    border-radius: 4px;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: rgba(0, 0, 0, 1) !important;
+    background-color: rgb(219, 216, 212);
+    border-radius: 4px;
+}
